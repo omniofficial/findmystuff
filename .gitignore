@@ -1,0 +1,25 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Git directory if nested
+.git/
+
+# Ignore environment or config files
+.env
+config.php
+db_config.php
+
+# Ignore IDE/editor files
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore vendor if using Composer (optional)
+vendor/
+
+# Ignore node modules (if using Node.js tools)
+node_modules/
+
+
+/images/
